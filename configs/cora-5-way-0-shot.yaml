@@ -1,0 +1,63 @@
+N: 20
+activation: elu
+alpha_l: 9.3
+attn_drop: 0.48
+batch_size: 64
+llm_model: meta-llama/Meta-Llama-3-8B-Instruct
+commit_score: 1.9
+config_name: cora-5-way-0-shot
+checkpoint_path: checkpoint/<MODEL_CHECKPOINT>.pt  # Replace with your checkpoint filename
+dataset:
+- cora_full
+decoder: gat
+drop_edge_rate: 0.79
+ego_graph_file_path:
+- lc_ego_graphs/cora_full-lc-ego-graphs-64.pt
+encoder: gat
+fusion: weighted
+fusion_lean: 0.41
+in_drop: 0.2
+quant_temp: 0.05
+k_shot: 5
+loss_fn:
+- cont
+lr: 5.0e-05
+lr_f: 0.001
+mask_rate: 0.53
+max_epoch: 20
+n_way: 5
+norm: batchnorm
+num_dec_layers: 1
+num_heads: 2
+num_hidden: 256
+num_layers: 3
+num_remasking: 2
+optimizer: adamw
+out_dim: 128
+project: Zero-shot Node Classification
+raw_temp: 0.02
+remask_method: random
+remask_rate: 0.7
+replace_rate: 0.05
+residual: false
+scheduler: false
+tau: 0.831
+test_dataset:
+- cora
+- cora_full
+- citeseer
+- pubmed
+- wiki-cs
+- ogbn-arxiv
+- ogbn-products
+test_ego_graph_file_path:
+- lc_ego_graphs/cora-lc-ego-graphs-64.pt
+- lc_ego_graphs/cora_full-lc-ego-graphs-64.pt
+- lc_ego_graphs/citeseer-lc-ego-graphs-64.pt
+- lc_ego_graphs/pubmed-lc-ego-graphs-64.pt
+- lc_ego_graphs/wiki-cs-lc-ego-graphs-64.pt
+- lc_ego_graphs/ogbn-arxiv-lc-ego-graphs-64.pt
+- lc_ego_graphs/ogbn-products-lc-ego-graphs-64.pt
+tok_model: meta-llama/Llama-2-7b-hf
+top_k: 13
+weight_decay: 1.88e-06
