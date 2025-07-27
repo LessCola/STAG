@@ -5,7 +5,7 @@
 **Authors:** Jianyuan Bo¹, Hao Wu², Yuan Fang¹  
 ¹Singapore Management University, Singapore  
 ²Beijing Normal University  
-📧 {jybo.2020, yfang}@smu.edu.sg, wuhao@bnu.edu.cn
+📧 jybo.2020smu.edu.sg, wuhao@bnu.edu.cn, yfang@smu.edu.sg
 
 STAG is a self-supervised framework that bridges graph representation learning and large language models through a quantization approach. It enables true zero-shot learning without requiring labeled data from either source or target datasets.
 
