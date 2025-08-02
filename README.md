@@ -1,6 +1,6 @@
 # Quantizing Text-attributed Graphs for Semantic-Structural Integration
 
-> **Official Implementation** of "Quantizing Text-attributed Graphs for Semantic-Structural Integration" accepted at **KDD'25**.
+> **Official Implementation** of "Quantizing Text-attributed Graphs for Semantic-Structural Integration" accepted at **KDD'25**. [[arXiv](https://arxiv.org/abs/2507.19526)]
 
 **Authors:** Jianyuan Bo¹, Hao Wu², Yuan Fang¹  
 ¹Singapore Management University, Singapore  
