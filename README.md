@@ -1,6 +1,6 @@
-# STAG: Quantizing Text-attributed Graphs for Semantic-Structural Integration
+# Quantizing Text-attributed Graphs for Semantic-Structural Integration
 
-> **Official Implementation** of "STAG: Quantizing Text-attributed Graphs for Semantic-Structural Integration" accepted at **KDD'25**.
+> **Official Implementation** of "Quantizing Text-attributed Graphs for Semantic-Structural Integration" accepted at **KDD'25**.
 
 **Authors:** Jianyuan Bo¹, Hao Wu², Yuan Fang¹  
 ¹Singapore Management University, Singapore  
